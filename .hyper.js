@@ -4,6 +4,9 @@
 
 module.exports = {
   config: {
+    hypercwd: {
+      initialWorkingDirectory: '~/Documents'
+    },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: 'stable',
@@ -153,7 +156,9 @@ module.exports = {
     'hyper-search',
     'gitrocket',
     'hyper-statusline',
-    'hyper-final-say'
+    'hyper-tabs-enhanved',
+    'hyper-final-say',
+    "hypercwd"
   ],
 
   // in development, you can create a directory under
